@@ -1,0 +1,35 @@
+{
+  "name": "notes-app-with-restful-api",
+  "version": "1.0.0",
+  "description": "Bondan Charisnanda",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start-dev": "webpack serve --config webpack.config.js",
+    "start": "webpack serve --open"
+  },
+  "keywords": [],
+  "author": "bobys16",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobys16/notes_app_wapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bobys16/notes_app_wapi/issues"
+  },
+  "homepage": "https://github.com/bobys16/notes_app_wapi#readme",
+  "devDependencies": {
+    "css-loader": "^6.10.0",
+    "gsap": "^3.12.5",
+    "html-webpack-plugin": "^5.6.0",
+    "motion": "^10.17.0",
+    "prettier": "3.2.5",
+    "style-loader": "^3.3.4",
+    "sweetalert2": "^11.10.6",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.3"
+  }
+}

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Register</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="login-container">
+            <h2>Register</h2>
+            <form class="login-form" id="register-form" action="#">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required />
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        required
+                    />
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password:</label>
+                    <input
+                        type="password"
+                        id="confirm-password"
+                        name="confirm-password"
+                        required
+                    />
+                </div>
+                <button type="submit" class="btn-login">Register</button>
+            </form>
+            <div class="btn-register-container">
+                <button class="btn-register" onclick="redirectToLogin()">
+                    Login
+                </button>
+            </div>
+        </div>
+
+        <script>
+            function redirectToLogin() {
+                window.location.href = 'login.html';
+            }
+        </script>
+    </body>
+</html>
