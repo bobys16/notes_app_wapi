@@ -24,31 +24,29 @@ The Notes App is a web application designed to help users manage their notes eff
 ## Installation
 
 1. Clone the repository:
-
+`
 git clone https://github.com/bobys16/notes_app_wapi.git
-
-
+`
 2. Navigate to the project directory:
-
+`
 cd notes-app
-
+`
 3. Install dependencies:
-
+`
 npm install
-
+`
 ## Usage
 
 1. Run the application in development mode:
-
+`
 npm run start-dev
-
+`
 This will start the webpack-dev-server and launch the application in your default web browser.
 
 2. To build the application for production:
-
+`
 npm run build
-
-
+`
 This will create a production-ready build of the application in the `dist` directory.
 
 ## Demo
